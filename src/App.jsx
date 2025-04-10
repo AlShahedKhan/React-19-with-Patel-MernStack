@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./components/ex-4/About";
 import Home from "./components/Home";
 import TodoDetails from "./components/ex-3/TodoDetails";
+import WeatherApp from "./components/ex-5/WetherApp";
 
 const appRouter = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/todo/:todoId",
     element: <TodoDetails />,
+  },
+  {
+    path: "/weather",
+    element: <WeatherApp />,
   },
 ]);
 
