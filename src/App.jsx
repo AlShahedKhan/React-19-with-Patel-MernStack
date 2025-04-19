@@ -10,7 +10,7 @@ import WeatherApp from "./components/ex-5/WetherApp";
 
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: <Home />,
   },
   {
@@ -26,7 +26,7 @@ const appRouter = createBrowserRouter([
     element: <TodoDetails />,
   },
   {
-    path: "/weather",
+    path: "/",
     element: <WeatherApp />,
   },
 ]);
